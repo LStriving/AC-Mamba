@@ -40,7 +40,7 @@ const authors = [
   {
     name: "Kai Zhou",
     icon: "",
-    homepage: "https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao",
+    homepage: "https://kaai520.github.io",
     address_flag: "1, †",
   },
   {
