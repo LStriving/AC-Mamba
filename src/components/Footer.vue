@@ -13,7 +13,7 @@ const links = {
   
   <div class="bg">
     
-    <el-watermark :content="['SG-Mamba','VFSS']" :gap="['60','0']" :z-index="0">
+    <el-watermark :content="['AC-Mamba','VFSS']" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
           <!-- This template is inspired by 

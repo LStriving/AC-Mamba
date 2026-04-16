@@ -20,7 +20,7 @@ const title = "Temporal Micro-Action Localization with Anatomically Calibrated M
 const title_color = "#000000";
 
 // 标题补充，没有则置为''即可
-// const title_supp = " (SG-Mamba)";
+// const title_supp = " (AC-Mamba)";
 const title_supp = "";
 
 // 标题补充颜色
