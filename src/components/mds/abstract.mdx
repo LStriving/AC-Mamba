@@ -3,18 +3,26 @@
 Videofluoroscopic Swallowing Study (VFSS)
 is the gold standard for assessing swallowing disorders,
 enabling detailed analysis of swallowing phases. Temporal
-micro-action localization in VFSS, which needs to identify
-and localize micro-actions (e.g., hyoid motion, {'<'}2s), is
-critical for diagnosis but faces significant challenges due
-to spatial ambiguity in noisy X-ray images and the extremely short duration of micro-actions. Existing methods
+micro-action localization in VFSS, which needs to identify and
+localize micro-actions (e.g., hyoid motion, {'<'}2s),
+is critical for diagnosis but faces significant challenges
+due to spatial ambiguity caused by tissue occlusion and
+visual blur from rapid anatomical motion. Existing methods
 handle brief actions by either localizing swallowing events
-before identifying micro-actions or trimming videos for focused analysis. However, they rely solely on appearance-
-based data that are highly susceptible to noise and back-
-ground interference. To this end, we propose Skeleton-
-Guided Mamba for Temporal Micro-Action Localization (SG-
-Mamba). Our method incorporates a novel skeleton modality that encodes the motion of key anatomical landmarks as
-heatmap sequences, effectively suppressing noise and enhancing anatomical focus. We further introduce a Channel-
-enhanced Cross-Mamba (CCM) module that fuses these
-skeleton representations with traditional appearance features, enabling efficient cross-modal spatiotemporal modeling with linear complexity. Our framework achieves state-
-of-the-art performance, surpassing the previous method by
-14.4% in average mAP.
+before identifying micro-actions or trimming videos for
+focused analysis. However, relying solely on appearance-based
+data makes them susceptible to low contrast and
+background interference. To this end, we propose Anatomi
+cally Calibrated Mamba for Temporal Micro-Action Localization (AC-Mamba).
+Our method incorporates a novel skeleton modality that encodes the motion of key anatomical
+landmarks as heatmap sequences, effectively enhancing
+anatomical focus and reducing spatial ambiguity.
+We further introduce an Anatomical Calibration Mamba (ACM)
+module as a cross-modal calibrator,
+leveraging the skeleton trajectory as a dynamic gate to
+calibrate the ambiguous appearance features. To further purify the features,
+we introduce a Redundancy Reduction Layer (RRL) to
+explicitly suppress static background information shared
+across channels. Our framework achieves state-of-the-art
+performance, surpassing the previous method by 14.4% in
+average mAP.

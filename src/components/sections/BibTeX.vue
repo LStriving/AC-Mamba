@@ -4,7 +4,7 @@ export default {
     return {
       bibtex: [
         "@article{junyaohu2023template,",
-        "    title={Temporal Micro-Action Localization with Skeleton-Guided Mamba for Videofluoroscopic Swallowing Study},",
+        "    title={Temporal Micro-Action Localization with Anatomically Calibrated Mamba for Videofluoroscopic Swallowing Study},",
         "    author={Yirui Li, Kai Zhou, Meng Dai, Haiyu Zhou, Jinwu Hu, Yifan Yang, Jian Chen, Fei Liu, Hongmin Cai, Mingkui Tan},",
         // "    journal={xxx},",
         "    year={2025}",

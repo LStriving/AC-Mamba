@@ -13,7 +13,8 @@ import {
 const logo = "";
 
 // 标题
-const title = "Temporal Micro-Action Localization with Skeleton-Guided Mamba for Videofluoroscopic Swallowing Study";
+// const title = "Temporal Micro-Action Localization with Skeleton-Guided Mamba for Videofluoroscopic Swallowing Study";
+const title = "Temporal Micro-Action Localization with Anatomically Calibrated Mamba for Videofluoroscopic Swallowing Study";
 
 // 标题颜色
 const title_color = "#000000";
