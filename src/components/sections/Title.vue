@@ -142,13 +142,13 @@ const buttons = [
   {
     disabled: false,
     name: "Supplementary",
-    link: "https://github.com/LStriving/Skeleton-Guided-Mamba/blob/main/assets/Supplementary.pdf",
+    link: "https://github.com/LStriving/Anatomically-Calibrated-Mamba/blob/main/assets/Supplementary.pdf",
     component: Document,
   },
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/LStriving/Skeleton-Guided-Mamba",
+    link: "https://github.com/LStriving/Anatomically-Calibrated-Mamba",
     component: Files,
   },
   // {
